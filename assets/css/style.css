@@ -372,6 +372,7 @@ section .title::after {
   font-size: 17px;
   opacity: 0;
   animation: showText 0.5s 1s linear forwards;
+  color: #0b2027;
 }
 @keyframes showText {
   100% {
