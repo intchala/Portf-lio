@@ -76,6 +76,13 @@ section .title::after {
   background: #fff;
   transform: translateX(-50%);
 }
+/* estoli botao menu */
+.menu-btn {
+  color: #fff;
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
 
 /* estilo menú de navegação */
 .navbar {
