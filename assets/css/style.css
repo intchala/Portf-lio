@@ -406,16 +406,16 @@ section .title::after {
   animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
 }
 .bar .progress-line.html span {
-  width: 40%;
+  width: 10%;
 }
 .bar .progress-line.css span {
-  width: 40%;
+  width: 5%;
 }
 .bar .progress-line.js span {
-  width: 30%;
+  width: 10%;
 }
 .bar .progress-line.vs span {
-  width: 60%;
+  width: 30%;
 }
 
 .progress-line span::before {
@@ -451,16 +451,16 @@ section .title::after {
   }
 }
 .progress-line.html span::after {
-  content: "40%";
+  content: "10%";
 }
 .progress-line.css span::after {
-  content: "40%";
+  content: "5%";
 }
 .progress-line.js span::after {
-  content: "30%";
+  content: "10%";
 }
 .progress-line.vs span::after {
-  content: "60%";
+  content: "30%";
 }
 
 /* estilo portfólio */
