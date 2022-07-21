@@ -365,7 +365,7 @@ img {
 
 /*equipe*/
 .teams .title::after {
-  content: "Especializada";
+  content: "O nosso time";
 }
 .teams .carousel .card {
   background: #222;
