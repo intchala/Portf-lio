@@ -192,10 +192,6 @@ img {
   background-color: #0b2027;
   color: #fff;
 }
-.about .title::after {
-  content: "Quem sou eu";
-  background-color: #0b2027;
-}
 .about .about-content .left {
   width: 45%;
 }
@@ -242,12 +238,6 @@ img {
   background: #0b2027;
   color: #fff;
 }
-
-.services .title::after,
-.teams .title::after {
-  background: #0b2027;
-  content: "Que oferecemos";
-}
 .services .serv-content .card {
   width: calc(33% - 20px);
   background: #222;
@@ -289,10 +279,6 @@ img {
 .skills {
   background-color: #0b2027;
   color: #fff;
-}
-.skills .title::after {
-  content: "O que faço";
-  background-color: #0b2027;
 }
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -364,9 +350,6 @@ img {
 }
 
 /*equipe*/
-.teams .title::after {
-  content: "O nosso time";
-}
 .teams .carousel .card {
   background: #222;
   border-radius: 6px;
@@ -428,10 +411,6 @@ img {
 .contact {
   background-color: #0b2027;
   color: #fff;
-}
-.contact .title::after {
-  content: "Fale conosco";
-  background-color: #0b2027;
 }
 .contact .contact-content .column {
   width: calc(50% - 30px);
