@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Poppins:wght@300;400;500&display=swap");
 
 * {
   margin: 0;
@@ -15,13 +15,13 @@ html {
   margin: auto;
 }
 
-/*navegação*/
+/*navegação ↓ */
 .navbar {
   background-color: #0b2027;
   position: fixed;
   width: 100%;
   padding: 20px 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
   z-index: 999;
   transition: all 0.3s ease;
 }
@@ -57,7 +57,7 @@ html {
   color: #fff;
 }
 
-/*inicio*/
+/*inicio ↓ */
 .home {
   display: flex;
   background: url(image/banner.png) no-repeat;
@@ -65,7 +65,7 @@ html {
   height: 100vh;
   color: #fff;
   min-height: 500px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #0b2027;
 }
 .home .max-width {
@@ -102,7 +102,7 @@ html {
   background: none;
 }
 
-/*menumobile*/
+/*menumobile ↓ */
 .menu-btn {
   color: #fff;
   font-size: 26px;
@@ -133,12 +133,12 @@ html {
   pointer-events: auto;
 }
 
-/*estilos comuns*/
+/*estilos comuns ↓ */
 section {
   padding: 100px 0;
 }
 section .title {
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-align: center;
   font-size: 40px;
   font-weight: 500;
@@ -172,7 +172,7 @@ section .title::after {
 .teams,
 .contact,
 footer {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .about .about-content,
 .services .serv-content,
@@ -184,7 +184,7 @@ footer {
   justify-content: space-between;
 }
 
-/*sobre*/
+/*sobre ↓ */
 img {
   border: solid 2px #90be78;
 }
@@ -232,7 +232,7 @@ img {
   border-radius: 6px;
 }
 
-/*serviços*/
+/*serviços ↓ */
 .services,
 .teams {
   background: #0b2027;
@@ -270,7 +270,7 @@ img {
   margin: 10px 0 7px 0;
 }
 
-/*habilidades*/
+/*habilidades ↓ */
 .skills .skills-content .right {
   border: solid 2px #90be78;
   border-radius: 5px;
@@ -349,7 +349,7 @@ img {
   width: 15%;
 }
 
-/*equipe*/
+/*equipe ↓ */
 .teams .carousel .card {
   background: #222;
   border-radius: 6px;
@@ -407,7 +407,7 @@ img {
   background: #90be78 !important;
 }
 
-/*contato*/
+/*contato ↓ */
 .contact {
   background-color: #0b2027;
   color: #fff;
@@ -465,7 +465,7 @@ img {
   outline: none;
   padding: 0 15px;
   font-size: 17px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 .contact .rigth form .name {
   margin-right: 10px;
@@ -502,7 +502,7 @@ img {
   background: none;
 }
 
-/*rodapé*/
+/*rodapé ↓ */
 footer {
   background: #111;
   padding: 20px 23px;
@@ -517,7 +517,7 @@ footer span a:hover {
   text-decoration: underline;
 }
 
-/*responsividade*/
+/*responsividade ↓ */
 @media (max-width: 1300px) {
   .navbar .max-width {
     margin-left: 0;
