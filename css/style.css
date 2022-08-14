@@ -187,6 +187,10 @@ img {
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 10px;
+  color: #90be78;
+  border: solid 1px #fff;
+  border-radius: 30px;
+  padding: 2px;
 }
 .about .about-content .right .text span {
   color: #90be78;
